@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MonProduit — Lancement</title>
+    <link rel="stylesheet" href="styliseur.css">
+    <!-- Police moderne -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <meta name="description" content="Lancez votre produit rapidement avec MonProduit — essai gratuit.">
+</head>
+<body>
+
+    <!-- Barre de navigation -->
+    <header class="navbar">
+        <div class="logo">Mon<span>Produit</span></div>
+        <nav class="nav-links">
+            <a href="#features">Fonctionnalités</a>
+            <a href="#about">À propos</a>
+            <a href="#" class="btn-secondary">Connexion</a>
+        </nav>
+    </header>
+
+    <!-- Section Principale (Hero Section) -->
+    <main class="hero">
+        <div class="hero-container">
+            <div class="hero-text">
+                <h1>Donnez vie à votre idée.</h1>
+                <p>Une solution simple et rapide pour lancer votre produit : interface claire, intégrations prêtes et déploiement instantané.</p>
+                
+                <!-- Formulaire de capture (Call to Action) -->
+                <form class="cta-form" onsubmit="event.preventDefault();">
+                    <input type="email" placeholder="Votre adresse email" aria-label="email" required>
+                    <button type="submit" class="btn-primary">Essai gratuit</button>
+                </form>
+            </div>
+            
+            <!-- Visuel (Élément graphique abstrait simulant l'application) -->
+            <div class="hero-visual">
+                <img src="assets/hero.svg" alt="Illustration produit" class="hero-image">
+                <div class="circle-gradient" aria-hidden="true"></div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Sections supplémentaires -->
+    <section id="features" class="container features-section">
+        <h2>Fonctionnalités clés</h2>
+        <div class="grid">
+            <article class="card">
+                <img class="feature-icon" src="assets/icon-fast.svg" alt="Rapide">
+                <h3>Rapide</h3>
+                <p>Déploiement en quelques minutes pour vous permettre d'itérer vite.</p>
+            </article>
+            <article class="card">
+                <img class="feature-icon" src="assets/icon-secure.svg" alt="Sécurisé">
+                <h3>Sécurisé</h3>
+                <p>Protection des données et sauvegardes automatiques.</p>
+            </article>
+            <article class="card">
+                <img class="feature-icon" src="assets/icon-extend.svg" alt="Extensible">
+                <h3>Extensible</h3>
+                <p>API et intégrations pour connecter vos outils préférés.</p>
+            </article>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="container footer-row">
+            <p>&copy; 2026 MonProduit — Tous droits réservés</p>
+            <ul class="footer-links">
+                <li><a href="#">Politique de confidentialité</a></li>
+                <li><a href="#">Mentions légales</a></li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+</html>
